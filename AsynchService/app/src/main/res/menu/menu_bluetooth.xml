@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.transspot.wth.transspot.BluetoothActivity">
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="100"
+        android:title="profile"
+        android:icon="@drawable/profile"
+        app:showAsAction="never|withText"
+        />
+    <item
+        android:id="@+id/action_saldo"
+        android:orderInCategory="100"
+        android:title="saldo"
+        android:icon="@drawable/saldo"
+        app:showAsAction="never|withText"
+        />
+    <item
+        android:id="@+id/action_current"
+        android:orderInCategory="100"
+        android:title="current"
+        android:icon="@drawable/current"
+        app:showAsAction="never|withText" />
+
+    <item
+        android:id="@+id/action_map"
+        android:orderInCategory="100"
+        android:title="map"
+        android:icon="@drawable/map"
+        app:showAsAction="never|withText" />
+    <item
+        android:id="@+id/action_routing"
+        android:orderInCategory="100"
+        android:title="routing"
+        android:icon="@drawable/routing"
+        app:showAsAction="never|withText" />
+    <item
+        android:id="@+id/action_achievments"
+        android:orderInCategory="100"
+        android:title="achievments"
+        app:showAsAction="never|withText" />
+
+
+</menu>
